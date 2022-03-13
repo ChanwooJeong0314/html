@@ -1,0 +1,59 @@
+*{
+    margin : 0;
+    padding : 0 ;
+    box-sizing: border-box;
+    border : 0;
+}
+.whiteText.blue.two{
+    width : 71.5px;
+}
+.width161px{
+    width : 161px;
+    border-radius: 5px;
+    border-bottom :  1px solid black;
+    height : 35px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background-color : #BFBFBF;
+    text-align : right;
+    
+}
+.계산기 {
+    border : 1px solid black;
+    width : 163px;
+    border-radius: 5px;
+    text-align: center;
+}
+.backgroundcolorgray{
+    background-color: #E8E8E8;  
+    padding : 6px;
+    width : 161px;
+    border-radius: 5px;
+}
+.backgroundcolorgray div{
+    padding-bottom : 6px;
+}
+
+body{
+    background-color : white;
+    height : 100vh;
+}
+.whiteText.blue{
+    background-color: #003453;
+}
+.whiteText.num{
+    background-color: black;
+}
+.whiteText.red{
+    background-color: #B4092B;
+}
+.whiteText{
+    color: white;
+    border-radius : 5px;
+    font-weight: bold;
+    width : 33px;
+    height : 25px;
+    border : none;
+    
+
+}
