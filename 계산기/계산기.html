@@ -42,8 +42,8 @@
                     <input type="button" value ='+' class='whiteText red' onclick="document.forms.output.value+='+'">
                 </div>
                 <div>
-                    <input type="button" value ='0' class='whiteText num' onclick="document.forms.output.value+='0'">
-                    <input type="button" value ='00' class='whiteText num' onclick="document.forms.output.value+='00'">
+                    <input type="button" value ='0' class='whiteText num' onclick="if (document.forms.output.value !=''){document.forms.output.value+='0'}">
+                    <input type="button" value ='00' class='whiteText num' onclick="if (document.forms.output.value !=''){document.forms.output.value+='00'}">
                     <input type="button" value ='.' class='whiteText num' onclick="document.forms.output.value+='.'">
                     <input type="button" value ='=' class='whiteText red' onclick="document.forms.output.value=eval(document.forms.output.value)">
                 </div>
